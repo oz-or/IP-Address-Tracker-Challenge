@@ -1,4 +1,6 @@
 import axios from "axios";
+import smImg from "../../public/images/pattern-bg-mobile.png";
+import bigImg from "../../public/images/pattern-bg-desktop.png";
 
 const API_KEY = import.meta.env.VITE_IP_GEOLOCATION_API_KEY;
 
@@ -72,18 +74,12 @@ function Header({ input, setInput, setData }) {
   return (
     <section className="relative ">
       <picture>
-        <source
-          media="(min-width: 501px)"
-          srcSet="../../images/pattern-bg-desktop.png"
-        />
-        <source
-          media="(max-width: 500px)"
-          srcSet="../../images/pattern-bg-mobile.png"
-        />
+        <source media="(min-width: 501px)" srcSet={bigImg} />
+        <source media="(max-width: 500px)" srcSet={smImg} />
         <img
           className="w-full h-80"
-          src="../../images/pattern-bg-desktop.png"
-          alt="IfItDoesntMatchAnyMediaAtAll"
+          src={bigImg}
+          alt="IfItDoesntMatchAnyMedia"
         />
       </picture>
 

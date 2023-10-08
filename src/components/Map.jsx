@@ -1,6 +1,6 @@
 import { MapContainer, TileLayer, Marker, useMap, Popup } from "react-leaflet";
 import { useEffect, useState } from "react";
-import marker from "../../images/icon-location.svg";
+import marker from "../../public/images/icon-location.svg";
 import L from "leaflet";
 
 function Map({ input, setInput, setData }) {
