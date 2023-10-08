@@ -5,16 +5,11 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
   - [The challenge](#the-challenge)
   - [Links](#links)
   - [Built with](#built-with)
 
 ## Overview
-
-### Screenshot
-
-![](./images/Screenshot.png)
 
 ### The challenge
 
