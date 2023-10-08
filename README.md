@@ -14,7 +14,7 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](./images/Screenshot.png)
+![](./Screenshot.png)
 
 ### The challenge
 
