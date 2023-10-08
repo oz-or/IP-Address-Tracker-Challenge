@@ -17,10 +17,10 @@
 .eslintrc.cjs
 package-lock.json
 package.json
-.postcss.config.js
-.tailwind.config.js
-.vite.config.js
-.style-guide.md
+postcss.config.js
+tailwind.config.js
+vite.config.js
+style-guide.md
 design
 node_modules
 images
