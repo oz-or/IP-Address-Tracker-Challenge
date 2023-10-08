@@ -73,7 +73,7 @@ function Header({ input, setInput, setData }) {
     <section className="relative ">
       <picture>
         <source
-          media="(min-width: 501px)"
+          media="(max-width: 2000px)"
           srcSet="images\pattern-bg-desktop.png"
         />
         <source
@@ -82,7 +82,7 @@ function Header({ input, setInput, setData }) {
         />
         <img
           className="w-full h-80"
-          src="OtherImage.png"
+          src="../../images/pattern-bg-desktop.png"
           alt="IfItDoesntMatchAnyMedia"
         />
       </picture>
