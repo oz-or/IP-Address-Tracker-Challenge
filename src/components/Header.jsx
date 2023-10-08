@@ -82,7 +82,7 @@ function Header({ input, setInput, setData }) {
         />
         <img
           className="w-full h-80"
-          src="../../images/pattern-bg-desktop.png"
+          srcSet="images\pattern-bg-desktop.png"
           alt="IfItDoesntMatchAnyMedia"
         />
       </picture>
