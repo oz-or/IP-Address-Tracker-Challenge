@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Rubik', sans-serif;
+  color: hsl(0, 0%, 17%);
+}
